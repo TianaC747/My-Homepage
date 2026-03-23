@@ -1,0 +1,31 @@
+body {font-family: Arial;
+      margin: 0;
+     }
+header { background-color: light pink;
+        text-align: center;
+        padding: 10px;
+        border: 2px solid black;
+       }
+nav { background-color: lightgray;
+     border: 2px solid black;
+    }
+nav ul { list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+       }
+main { padding: 20px;
+     }
+.container { display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+           }
+.box { border: 2px solid black;
+      padding: 15px; 
+     }
+footer { background-color: lightpink;
+        text-align: center;
+        padding: 10px;
+        border: 2px solid black;
+       }
+     
