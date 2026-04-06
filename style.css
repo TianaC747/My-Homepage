@@ -59,6 +59,7 @@ main {
       flex-direction: column;
       justify-content: space-between;
       overflow: hidden;
+      box-sizing: border-box;
       }
 .box img {
       width: 100%;
