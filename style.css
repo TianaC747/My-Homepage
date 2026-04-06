@@ -1,55 +1,84 @@
-body {font-family: Arial;
+body {
+      font-family: Arial;
       margin: 0;
-      height: 100%;
-      overflow: hidden;
-     }
-header { display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: lightpink;
-        padding: 10px;
-        border: 2px solid black;
-       }
-nav ul { display: flex;
-        gap: 15px;
-        list-style: none;
-       }
-.hero { background: pink;
-       padding: 15px;
-       border: 2px solid black;
-     }
-.hero-text {max-width: 400 px} 
-button{ padding: 8px;
-       background: white;
-       border: none;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
       }
-.container { display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 10px;
-            padding: 10px;
-            aligh-items: stretch;
-           }
-.box { border: 2px solid black;
-      padding: 5px; 
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background:lightpink;
+      padding: 5px 10px;
+      border: 2px solid black;
+      }
+nav ul {
+      display: flex;
+      gap: 10px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+      }
+.hero { 
+      background: pink;
+      padding: 10px
       text-align: center;
-      height: 90%;
-     }
-.box img { width: 100%;
-         height: 100px;
-         object-fit: contain;
-          bacground: white;
-         border: 20px solid black}
-footer { display: flex;
-        justify-content: space-around;
-        border: 2px solid black;
-        padding: 10px;
-        background: lightpink;
-body{ transform: scale (0.85);
-     transform-origin: top left;
-h1 { font-size: 18px; }
-h2 { font-size: 14px; }
-h3{ font-size: 13px; }
-p { font-size: 11px; }
-       
-
+      border: 2px solid black;
+      }
+.hero h2 {
+      font-size: 16px;
+      margin: 5px;
+      }
+.hero p {
+      font-sixe: 10px;
+      margin: 5px;
+      }
+button {
+      font-size: 10px;
+      padding: 5px;
+      }
+main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      }
+.container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      width: 100%;
+      padding: 10px;
+      }
+.box {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      }
+.box img {
+      width: 100%;
+      height: 100%
+      object-fit: contain;
+      }
+h3 {
+      font-size: 12px;
+      margin: 5px;
+      }
+p {
+      font-size: 10px;
+      }
+footer {
+      display: flex;
+      justify-content: space-around;
+      background: lightpink;
+      border: 2px solid black;
+      padding: 5px;
+      font-size: 12px;
+      }
+      
+      
      
