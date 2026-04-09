@@ -61,7 +61,19 @@ main {
       overflow: hidden;
       box-sizing: border-box;
       }
-.box img {
+.box--btn {
+      margin-top: auto;
+      padding: 8px;
+      background-color: hotpink;
+      xolor: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-black;
+      }
+.box-btn:hover {
+      backgorund-color: deeppink;
+      }
+      .box img {
       width: 90%;
       height: 80%;
       object-fit: contain;
