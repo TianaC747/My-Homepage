@@ -72,6 +72,7 @@ main {
       }
 .box-btn:hover {
       backgorund-color: deeppink;
+      text; hsl( 90%, 70%, 02%)
       }
       .box img {
       width: 90%;
@@ -81,6 +82,7 @@ main {
       }
 h3 {
       font-size: 12px;
+      justify:content
       margin: 5px;
       }
 p {
